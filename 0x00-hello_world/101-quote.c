@@ -1,4 +1,4 @@
-#include <stduo.h>
+#include <stdio.h>
 #include <unistd.h>
 /**
  * main - Entry
