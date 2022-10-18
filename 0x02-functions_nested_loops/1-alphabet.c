@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabelt - print all alphabelt in lowercase
+ * print_alphabet - print all alphabelt in lowercase
  */
 
-void print_alphabelt(void)
+void print_alphabet(void)
 {
 	char letter;
 
