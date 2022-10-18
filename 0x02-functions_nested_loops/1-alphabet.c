@@ -4,7 +4,7 @@
  * print_alphabelt - print all alphabelt in lowercase
  */
 
-void print_alphabet(void)
+void print_alphabelt(void)
 {
 	char letter;
 
