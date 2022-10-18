@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- * is written bt ritji
+ * is written by ritji
  * Return: 0
  */
 
