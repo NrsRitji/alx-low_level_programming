@@ -1,26 +1,17 @@
-#include "main.h" 
- /** 
-  * rev_string - reverses a string 
-  * _putchar - print each character 
-  * @s: char to check 
-  * 
-  * Description: This will reverse a string 
-  * Return: 0 is success 
-  */ 
- void rev_string(char *s) 
- { 
-         int a = 0, b, c; 
-         char d; 
-  
-         while (s[a] != '\0') 
-         { 
-                 a++; 
-         } 
-         c = a - 1; 
-         for (b = 0; c >= 0 && b < c; c--, b++) 
-         { 
-                 d = s[b]; 
-                 s[b] = s[c]; 
-                 s[c] = d; 
-         } 
- }
+#include "main.h"
+/**
+ * puts2 - prints every other character of a string
+ *
+ * @str: char to check
+ *
+ * Return: 0 is success
+ */
+void puts2(char *str)
+{
+	int string;
+
+	for (string = 0; str[string] != '\0'; string++)
+	if (string % 2 == 0)
+		_putchar(str[string]);
+	_putchar('\n');
+}
